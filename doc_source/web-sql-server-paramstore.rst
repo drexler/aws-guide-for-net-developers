@@ -73,7 +73,7 @@ You can also create a parameter and perform other operations using |PSTlong|.
    # Get parameter value with decryption
    Get-SSMParameter -Name "/MyWebApp/Development/constr" -WithDecryption $true
 
-To learn more about |PST|, see XXX.
+To learn more about |PST|, see `AWS Tools for Windows PowerShell <https://docs.aws.amazon.com/powershell/latest/userguide/pstools-welcome.html>`.
 
 .. _web-sql-server-paramstrore-code:
 
