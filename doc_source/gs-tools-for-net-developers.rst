@@ -31,7 +31,7 @@ work with |DDBlong| tables, publish messages to |snslong| queues, and more.
 
 And you don't have to leave Visual Studio.
 
-For details about how to download and install the kit, see `Setting up the AWS Toolkit for Visual Studio <https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/setup.html>`_.
+For details about how to download and install the toolkit, see `Setting up the AWS Toolkit for Visual Studio <https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/setup.html>`_.
 
 
 |TTSlong|
@@ -41,7 +41,9 @@ For details about how to download and install the kit, see `Setting up the AWS T
 Team Foundation Server (TFS) to work with AWS services. You can work with |S3|, |AEBlong|,
 |CDlong|, |LAMlong|, |CFNlong|, |SQSlong| (|SQS|), and
 |SNSlong| (|SNS|). You can also run commands using the Windows PowerShell
-module and the AWS CLI.
+module and the AWS CLI. 
+
+To get started with |TTSlong|, see  `AWS Tools for Microsoft Visual Studio Team Services <https://aws.amazon.com/vsts/>`_.
 
 
 AWS Tools for Windows PowerShell and PowerShell Core
