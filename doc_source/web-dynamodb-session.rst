@@ -150,6 +150,14 @@ You can use the following configuration attributes in the :code:`providers` sect
     provider will automatically create the table if it doesn't exist. The default is :code:`true`. If this flag is
     set to :code:`false` and the table doesn't exist, an exception is thrown.
 
+*TTLAttributeName*
+    Optional :code:`string` attribute. The name of the TTL attribute for the table. This must be 
+    specified for session items to contain TTL-compatible data.
+
+*TTLExpiredSessionsSeconds*
+    Optional :code:`int` attribute. The minimum number of seconds after session expiration before sessions 
+    are eligible for TTL. By default this is 0. This value must be non-negative.
+
 
 .. _web-dynamodb-session-security:
 
